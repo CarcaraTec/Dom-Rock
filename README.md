@@ -1,4 +1,5 @@
-![Logo_Carcara_Tec](https://user-images.githubusercontent.com/20825226/162587778-5cf75029-196b-4ff9-b703-978a652fb370.jpg)
+![Logo_Carcara_Tec](https://user-images.githubusercontent.com/20825226/162587844-122260cb-9edd-4f85-96c6-b56e8b8f0d4d.jpg)
+
 
 
 
