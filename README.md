@@ -1,4 +1,5 @@
-![Logo_Carcara_Tec](https://user-images.githubusercontent.com/20825226/162587935-8d013cc8-1a64-4088-b2e7-583aa97fbc64.jpg)
+![Carcara_Tec](https://user-images.githubusercontent.com/20825226/162587999-bc0b4fc6-5ba7-4526-bb94-0c4949666859.png)
+
 
 ## Desafio 
 
