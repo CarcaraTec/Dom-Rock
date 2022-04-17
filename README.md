@@ -1,26 +1,12 @@
-API Dom Rock
-
-## Desafio 
-
-O desafio consiste na gestão de ativação de clientes na plataforma Dom Rock. Precisamos de uma
-solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar
-recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado
-em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas,
-principalmente, tenha a base de dados modelada adequadamente para futuras integrações com
-outros sistemas.
-
-## Objetivo
-
-## Backlog do Produto
-
-## Wireframe
-
-## Cards
-
-## Ferramentas
-
-## Equipe
-
-
-
-
+![Slide1](https://user-images.githubusercontent.com/20825226/163735267-ad072dbd-eaf0-42b2-9691-7a7f6c82889b.JPG)
+![Slide2](https://user-images.githubusercontent.com/20825226/163735306-99f9e838-1a3d-4703-ab12-8ce35266b4dd.JPG)
+![Slide3](https://user-images.githubusercontent.com/20825226/163735307-1557abc5-1935-4c94-9f1c-376dd2862735.JPG)
+![Slide4](https://user-images.githubusercontent.com/20825226/163735308-020ed622-2f31-42f3-b45d-19e89fd26788.JPG)
+![Slide5](https://user-images.githubusercontent.com/20825226/163735395-7554826a-107d-4d1d-bfe9-d5bbf40a769a.JPG)
+![Slide6](https://user-images.githubusercontent.com/20825226/163735396-4e40ecc4-baff-48a3-bd78-b683fec7a86d.JPG)
+![Slide7](https://user-images.githubusercontent.com/20825226/163735397-66253563-5a4a-431d-818d-e9d1f7bbf754.JPG)
+![Slide8](https://user-images.githubusercontent.com/20825226/163735398-cd6fd447-4f85-443e-96cc-694a10337994.JPG)
+![Slide9](https://user-images.githubusercontent.com/20825226/163735399-132c22fe-3ea5-48af-a929-a704e48e2c3b.JPG)
+![Slide10](https://user-images.githubusercontent.com/20825226/163735403-0a7d9ed2-3233-4c49-960c-a4d93f38960c.JPG)
+![Slide11](https://user-images.githubusercontent.com/20825226/163735417-edfda719-a157-418d-913f-61f2428ee1d1.JPG)
+![Slide12](https://user-images.githubusercontent.com/20825226/163735420-d836ab4f-9ac3-48a8-909b-9cf905f2b8ce.JPG)
