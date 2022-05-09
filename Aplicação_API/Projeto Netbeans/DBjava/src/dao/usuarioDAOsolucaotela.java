@@ -10,35 +10,27 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import model.UsuarioTela;
-import view.FormCadastroTela;
-
+import model.SolucaoTela;
+import view.FormCadastrosolucoes;
 /**
  *
- * @author Administrador
+ * @author kiraisk
  */
-public class usuarioDAOcadastrotela {
+public class usuarioDAOsolucaotela {
     
     private final Connection connection;
-
-    public usuarioDAOcadastrotela(Connection connection) {
+    
+    public usuarioDAOsolucaotela(Connection connection) {
         this.connection = connection;
-        
     }
     
-    public void insert(UsuarioTela usuario) throws SQLException {
+    public void insert(SolucaoTela usuario) throws SQLException {
         
-            
-            String sql = "insert into cadastro(nome_da_empresa,cnpj,responsavel,telefone,email) values ('"+usuario.getNome_da_empresa()+"','"+usuario.getCnpj()+"','"+usuario.getResponsavel()+"','"+usuario.getTelefone()+"','"+usuario.getEmail()+"'); ";
+        String sql = "insert into solucao(nome_solucao,produto,core) values ('"+usuario.getNome_solucao()+"','"+usuario.getProduto()+"','"+usuario.getCore()+"'); ";
             
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.execute();
             
             connection.close();
-            
-            
-            
-       
     }
-    
 }

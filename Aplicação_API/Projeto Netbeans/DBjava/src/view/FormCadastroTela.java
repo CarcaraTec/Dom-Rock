@@ -36,59 +36,74 @@ public class FormCadastroTela extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jCheckBox1 = new javax.swing.JCheckBox();
         jLabel2 = new javax.swing.JLabel();
         jTextFieldtelefone = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jTextFieldresposavel = new javax.swing.JTextField();
+        jTextField = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jTextFieldnomeempresa = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
         jTextFieldcnpj = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jTextFieldcpf = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jTextFieldemail = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel11 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jTextFieldresposavel = new javax.swing.JCheckBox();
+        jCheckBoxresponsavel2 = new javax.swing.JCheckBox();
         jLabel1 = new javax.swing.JLabel();
+
+        jCheckBox1.setText("jCheckBox1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Nome da empresa");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 80, 171, -1));
-        getContentPane().add(jTextFieldtelefone, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, 286, -1));
+        jLabel2.setText("Objetivo:  ");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 90, 171, -1));
+        getContentPane().add(jTextFieldtelefone, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, 200, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("CNPJ");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, -1, -1));
-        getContentPane().add(jTextFieldresposavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, 286, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, -1, -1));
+        getContentPane().add(jTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, 200, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Responsavel");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, -1, -1));
-        getContentPane().add(jTextFieldnomeempresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 286, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 210, 130, 20));
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("CPF");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 290, -1, -1));
-        getContentPane().add(jTextFieldcnpj, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, 286, -1));
+        jTextFieldnomeempresa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldnomeempresaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextFieldnomeempresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 190, 20));
+
+        jTextFieldcnpj.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldcnpjActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextFieldcnpj, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, 190, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Telefone");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 360, -1, -1));
-        getContentPane().add(jTextFieldcpf, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 320, 286, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("E-mail");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 430, -1, -1));
-        getContentPane().add(jTextFieldemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 460, 290, -1));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 370, -1, -1));
+        getContentPane().add(jTextFieldemail, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 220, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setText("Seguinte");
@@ -99,8 +114,43 @@ public class FormCadastroTela extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 530, 190, 60));
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setText("Entregaveis possiveis");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 320, 220, -1));
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("Nome da empresa");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 171, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 370, 260, 30));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 140, 260, 30));
+
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel11.setText("Entregavel minimo");
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 200, 220, -1));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, 260, 30));
+
+        jTextFieldresposavel.setText("responsavel");
+        jTextFieldresposavel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldresposavelActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jTextFieldresposavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, -1, -1));
+
+        jCheckBoxresponsavel2.setText("responsavel2");
+        jCheckBoxresponsavel2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBoxresponsavel2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jCheckBoxresponsavel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, -1));
+
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/MicrosoftTeams-image (17).png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -110,13 +160,17 @@ public class FormCadastroTela extends javax.swing.JFrame {
         
         String nome_empresa = jTextFieldnomeempresa.getText();
         String cnpj = jTextFieldcnpj.getText();
-        String responsavel = jTextFieldresposavel.getText();
-        String cpf = jTextFieldcpf.getText();
+        String responsavel = "";
+        if (jTextFieldresposavel.isSelected())
+                responsavel+="luiz, ";
+        if (jCheckBoxresponsavel2.isSelected())
+            responsavel+="igor";
+        
         String telefone = jTextFieldtelefone.getText();
         String email = jTextFieldemail.getText(); 
         
         
-        UsuarioTela usuarioluiz = new UsuarioTela(nome_empresa, cnpj, responsavel, cpf, telefone, email);
+        UsuarioTela usuarioluiz = new UsuarioTela(nome_empresa, cnpj, responsavel, telefone, email);
          
         try {
             Connection conexao = new Conexao().getConnection();
@@ -135,6 +189,22 @@ public class FormCadastroTela extends javax.swing.JFrame {
         
        
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextFieldresposavelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldresposavelActionPerformed
+        
+    }//GEN-LAST:event_jTextFieldresposavelActionPerformed
+
+    private void jTextFieldcnpjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldcnpjActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldcnpjActionPerformed
+
+    private void jTextFieldnomeempresaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldnomeempresaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldnomeempresaActionPerformed
+
+    private void jCheckBoxresponsavel2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxresponsavel2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBoxresponsavel2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -173,18 +243,25 @@ public class FormCadastroTela extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBoxresponsavel2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JTextField jTextField;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextFieldcnpj;
-    private javax.swing.JTextField jTextFieldcpf;
     private javax.swing.JTextField jTextFieldemail;
     private javax.swing.JTextField jTextFieldnomeempresa;
-    private javax.swing.JTextField jTextFieldresposavel;
+    private javax.swing.JCheckBox jTextFieldresposavel;
     private javax.swing.JTextField jTextFieldtelefone;
     // End of variables declaration//GEN-END:variables
 }

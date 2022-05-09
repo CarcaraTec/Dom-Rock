@@ -14,17 +14,19 @@ public class UsuarioTela {
     private String nome_da_empresa;
     private String cnpj;
     private String responsavel;
-    private String cpf;
     private String telefone;
     private String email;
 
-    public UsuarioTela(String nome_da_empresa, String cnpj, String responsavel, String cpf, String telefone, String email) {
+    public UsuarioTela(String nome_da_empresa, String cnpj, String responsavel, String telefone, String email) {
         this.nome_da_empresa = nome_da_empresa;
         this.cnpj = cnpj;
         this.responsavel = responsavel;
-        this.cpf = cpf;
         this.telefone = telefone;
         this.email = email;
+    }
+
+    public UsuarioTela(String nome_empresa, String responsavel, String telefone, String email) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     
@@ -54,14 +56,7 @@ public class UsuarioTela {
         this.responsavel = responsavel;
     }
 
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
+    
     public String getTelefone() {
         return telefone;
     }
