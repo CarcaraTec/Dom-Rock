@@ -351,7 +351,7 @@ public class FormCadastrosolucoes extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBox18ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       String nome_solucao="test";
+       String nome_solucao = (String)jComboBox1.getSelectedItem();
         
        String produto = "";
         if (jCheckBoxvox.isSelected())
@@ -405,6 +405,9 @@ public class FormCadastrosolucoes extends javax.swing.JFrame {
         } catch (SQLException ex) {
             Logger.getLogger(FormCadastrosolucoes.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
+        FormCadastroTela2 telaDecadastro = new FormCadastroTela2();
+        telaDecadastro.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
@@ -433,7 +436,7 @@ public class FormCadastrosolucoes extends javax.swing.JFrame {
             jCheckBox6.setVisible(true);
             jCheckBox5.setVisible(true);
     }
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     

@@ -194,8 +194,7 @@ public class FormCadastroTela2 extends javax.swing.JFrame {
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 500, 590, 40));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/MicrosoftTeams-image (17).png"))); // NOI18N
-        jLabel10.setText("asdasdasd");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 810, 710));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

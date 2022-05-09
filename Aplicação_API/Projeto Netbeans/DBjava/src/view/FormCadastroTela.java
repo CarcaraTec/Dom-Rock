@@ -40,7 +40,7 @@ public class FormCadastroTela extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jTextFieldtelefone = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jTextField = new javax.swing.JTextField();
+        jTextFieldresposavel = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jTextFieldnomeempresa = new javax.swing.JTextField();
         jTextFieldcnpj = new javax.swing.JTextField();
@@ -54,8 +54,6 @@ public class FormCadastroTela extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
-        jTextFieldresposavel = new javax.swing.JCheckBox();
-        jCheckBoxresponsavel2 = new javax.swing.JCheckBox();
         jLabel1 = new javax.swing.JLabel();
 
         jCheckBox1.setText("jCheckBox1");
@@ -73,7 +71,7 @@ public class FormCadastroTela extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("CNPJ");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, -1, -1));
-        getContentPane().add(jTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 450, 200, -1));
+        getContentPane().add(jTextFieldresposavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 200, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -132,22 +130,6 @@ public class FormCadastroTela extends javax.swing.JFrame {
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 200, 220, -1));
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 240, 260, 30));
 
-        jTextFieldresposavel.setText("responsavel");
-        jTextFieldresposavel.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldresposavelActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jTextFieldresposavel, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, -1, -1));
-
-        jCheckBoxresponsavel2.setText("responsavel2");
-        jCheckBoxresponsavel2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBoxresponsavel2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jCheckBoxresponsavel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, -1));
-
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/MicrosoftTeams-image (17).png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -160,12 +142,7 @@ public class FormCadastroTela extends javax.swing.JFrame {
         
         String nome_empresa = jTextFieldnomeempresa.getText();
         String cnpj = jTextFieldcnpj.getText();
-        String responsavel = "";
-        if (jTextFieldresposavel.isSelected())
-                responsavel+="luiz, ";
-        if (jCheckBoxresponsavel2.isSelected())
-            responsavel+="igor";
-        
+        String responsavel = jTextFieldresposavel.getText();
         String telefone = jTextFieldtelefone.getText();
         String email = jTextFieldemail.getText(); 
         
@@ -181,7 +158,7 @@ public class FormCadastroTela extends javax.swing.JFrame {
             Logger.getLogger(FormCadastroTela.class.getName()).log(Level.SEVERE, null, ex);
         }
          
-        FormCadastroTela2 telaDecadastro = new FormCadastroTela2();
+        FormCadastrosolucoes telaDecadastro = new FormCadastrosolucoes();
         telaDecadastro.setVisible(true);
         
         
@@ -190,10 +167,6 @@ public class FormCadastroTela extends javax.swing.JFrame {
        
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jTextFieldresposavelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldresposavelActionPerformed
-        
-    }//GEN-LAST:event_jTextFieldresposavelActionPerformed
-
     private void jTextFieldcnpjActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldcnpjActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldcnpjActionPerformed
@@ -201,10 +174,6 @@ public class FormCadastroTela extends javax.swing.JFrame {
     private void jTextFieldnomeempresaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldnomeempresaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldnomeempresaActionPerformed
-
-    private void jCheckBoxresponsavel2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxresponsavel2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jCheckBoxresponsavel2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -244,7 +213,6 @@ public class FormCadastroTela extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JCheckBox jCheckBoxresponsavel2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
@@ -254,14 +222,13 @@ public class FormCadastroTela extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JTextField jTextField;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextFieldcnpj;
     private javax.swing.JTextField jTextFieldemail;
     private javax.swing.JTextField jTextFieldnomeempresa;
-    private javax.swing.JCheckBox jTextFieldresposavel;
+    private javax.swing.JTextField jTextFieldresposavel;
     private javax.swing.JTextField jTextFieldtelefone;
     // End of variables declaration//GEN-END:variables
 }
