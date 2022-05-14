@@ -34,3 +34,35 @@ TABLESPACE pg_default;
 
 ALTER TABLE public.escopo
     OWNER to postgres;
+
+-- Table: public.bronze
+
+-- DROP TABLE public.bronze;
+
+CREATE TABLE public.bronze
+(
+    origem character varying COLLATE pg_catalog."default" NOT NULL,
+    formato character varying COLLATE pg_catalog."default" NOT NULL,
+    sistema character varying COLLATE pg_catalog."default" NOT NULL,
+    volume_json character varying COLLATE pg_catalog."default",
+    freq_json character varying COLLATE pg_catalog."default",
+    volume_csv character varying COLLATE pg_catalog."default",
+    freq_csv character varying COLLATE pg_catalog."default",
+    volume_planilhas character varying COLLATE pg_catalog."default",
+    freq_planilhas character varying COLLATE pg_catalog."default",
+    volume_tabelas character varying COLLATE pg_catalog."default",
+    freq_tabelas character varying COLLATE pg_catalog."default",
+    volume_pdf character varying COLLATE pg_catalog."default",
+    freq_pdf character varying COLLATE pg_catalog."default",
+    volume_audio character varying COLLATE pg_catalog."default",
+    freq_audio character varying COLLATE pg_catalog."default",
+    volume_texto character varying COLLATE pg_catalog."default",
+    freq_texto character varying COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.bronze
+    OWNER to postgres;
