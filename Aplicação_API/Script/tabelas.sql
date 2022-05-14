@@ -1,39 +1,36 @@
--- Table: public.usuario
+-- Table: public.escopo
 
--- DROP TABLE public.usuario;
+-- DROP TABLE public.escopo;
 
-CREATE TABLE public.usuario
+CREATE TABLE public.escopo
 (
-    usuario character varying COLLATE pg_catalog."default" NOT NULL,
-    senha character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT usuario_pkey PRIMARY KEY (usuario)
-)
-WITH (
-    OIDS = FALSE
-)
-TABLESPACE pg_default;
-
-ALTER TABLE public.usuario
-    OWNER to postgres;
-
--- Table: public.cadastro
-
--- DROP TABLE public.cadastro;
-
-CREATE TABLE public.cadastro
-(
+    nome_empresa character varying COLLATE pg_catalog."default" NOT NULL,
+    objetivo_neg character varying COLLATE pg_catalog."default" NOT NULL,
+    entregavel_min character varying COLLATE pg_catalog."default" NOT NULL,
+    entregaveis_possi character varying COLLATE pg_catalog."default" NOT NULL,
+    solucao character varying COLLATE pg_catalog."default" NOT NULL,
+    produto character varying COLLATE pg_catalog."default" NOT NULL,
+    funcionalidade character varying COLLATE pg_catalog."default" NOT NULL,
+    core character varying COLLATE pg_catalog."default" NOT NULL,
+    estrutura_min_vox character varying COLLATE pg_catalog."default",
+    volume_vox character varying COLLATE pg_catalog."default",
     cnpj character varying COLLATE pg_catalog."default" NOT NULL,
-    responsavel character varying COLLATE pg_catalog."default" NOT NULL,
-    cpf character varying COLLATE pg_catalog."default" NOT NULL,
-    telefone character varying COLLATE pg_catalog."default" NOT NULL,
-    email character varying COLLATE pg_catalog."default" NOT NULL,
-    nome_da_empresa character varying COLLATE pg_catalog."default" NOT NULL,
-    CONSTRAINT cadastro_pkey PRIMARY KEY (nome_da_empresa)
+    estrutura_min_mkteplan character varying COLLATE pg_catalog."default",
+    volume_mkteplan character varying COLLATE pg_catalog."default",
+    estrutura_min_sales character varying COLLATE pg_catalog."default",
+    volume_sales character varying COLLATE pg_catalog."default",
+    estrutura_min_pricing character varying COLLATE pg_catalog."default",
+    volume_pricing character varying COLLATE pg_catalog."default",
+    estrutura_min_optimization character varying COLLATE pg_catalog."default",
+    volume_optimization character varying COLLATE pg_catalog."default",
+    estrutura_min_matching character varying COLLATE pg_catalog."default",
+    volume_matching character varying COLLATE pg_catalog."default",
+    CONSTRAINT escopo_pkey PRIMARY KEY (cnpj)
 )
 WITH (
     OIDS = FALSE
 )
 TABLESPACE pg_default;
 
-ALTER TABLE public.cadastro
+ALTER TABLE public.escopo
     OWNER to postgres;
