@@ -92,16 +92,17 @@ public class FormEscopo extends javax.swing.JFrame {
         checkbox1.setLabel("checkbox1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1600, 900));
+        setMinimumSize(new java.awt.Dimension(1280, 720));
+        setPreferredSize(new java.awt.Dimension(1280, 720));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("Solução/Produto  ");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 80, -1, 37));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, -1, 37));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel3.setText("CORE: ");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 390, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 390, -1, -1));
 
         jCheckBox1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox1.setText("Pricing");
@@ -110,7 +111,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 290, -1, -1));
+        getContentPane().add(jCheckBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, -1, -1));
         jCheckBox1.setVisible(false);
         if (jCheckBox1.isSelected())
         jTextField3.setVisible(true);
@@ -123,7 +124,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, -1, -1));
+        getContentPane().add(jCheckBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, -1, -1));
         jCheckBox3.setVisible(false);
 
         jCheckBox2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -133,7 +134,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 560, -1, 30));
+        getContentPane().add(jCheckBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 560, -1, 30));
 
         jCheckBox4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox4.setText("Sales & Distribution");
@@ -142,7 +143,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, -1, -1));
+        getContentPane().add(jCheckBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 250, -1, -1));
         jCheckBox4.setVisible(false);
 
         jCheckBox5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -152,7 +153,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 210, -1, -1));
+        getContentPane().add(jCheckBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, -1, -1));
         jCheckBox5.setVisible(false);
 
         jCheckBox6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -162,7 +163,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, -1, -1));
+        getContentPane().add(jCheckBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, -1, -1));
         jCheckBox6.setVisible(false);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
@@ -172,7 +173,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 700, 180, 60));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 630, 180, 60));
 
         jCheckBoxvox.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxvox.setText("Vox");
@@ -181,7 +182,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBoxvoxActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxvox, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 170, -1, -1));
+        getContentPane().add(jCheckBoxvox, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, -1, -1));
         jCheckBoxvox.setVisible(false);
 
         jCheckBox8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -191,7 +192,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 440, -1, -1));
+        getContentPane().add(jCheckBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 440, -1, -1));
 
         jCheckBox9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox9.setText("API gateway ");
@@ -200,7 +201,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 480, -1, -1));
+        getContentPane().add(jCheckBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 480, -1, -1));
 
         jCheckBox10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox10.setText("Filas ");
@@ -209,7 +210,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox10ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 520, -1, -1));
+        getContentPane().add(jCheckBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 520, -1, -1));
 
         jCheckBox11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox11.setText("Step function ");
@@ -218,7 +219,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox11ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 560, -1, -1));
+        getContentPane().add(jCheckBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 560, -1, -1));
 
         jCheckBox12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox12.setText("Cloudwatch");
@@ -227,7 +228,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox12ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 560, -1, 30));
+        getContentPane().add(jCheckBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 560, -1, 30));
 
         jCheckBox13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox13.setText("Fargate ");
@@ -236,7 +237,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox13ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 480, -1, 30));
+        getContentPane().add(jCheckBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 480, -1, 30));
 
         jCheckBox14.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox14.setText("Containers");
@@ -245,7 +246,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox14ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 520, -1, 30));
+        getContentPane().add(jCheckBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 520, -1, 30));
 
         jCheckBox15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox15.setText("lambda ");
@@ -254,7 +255,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox15ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 440, -1, 30));
+        getContentPane().add(jCheckBox15, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 440, -1, 30));
 
         jCheckBox16.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox16.setText("Painéis Gráficos e Relatórios");
@@ -263,7 +264,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox16ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 280, -1, 30));
+        getContentPane().add(jCheckBox16, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 280, -1, 30));
 
         jCheckBox17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox17.setText("Parquet");
@@ -272,7 +273,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox17ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 480, -1, 30));
+        getContentPane().add(jCheckBox17, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 480, -1, 30));
 
         jCheckBox18.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox18.setText("Quicksight");
@@ -281,7 +282,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox18ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 520, -1, 30));
+        getContentPane().add(jCheckBox18, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 520, -1, 30));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Selecionar Solução", "Nxt.Demand", "Nxt.Operations" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -289,7 +290,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, 190, 30));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 190, 30));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagens/MicrosoftTeams-image (17).png"))); // NOI18N
         jLabel4.setPreferredSize(getMaximumSize());
@@ -297,26 +298,26 @@ public class FormEscopo extends javax.swing.JFrame {
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel6.setText("CNPJ: ");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, -1, -1));
-        getContentPane().add(jTextFieldcnpj, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 330, 30));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, -1, -1));
+        getContentPane().add(jTextFieldcnpj, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, 330, 30));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel7.setText("Nome da Empresa: ");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 30, -1, -1));
-        getContentPane().add(jTextFieldnomeempresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 30, 410, 30));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 30, -1, -1));
+        getContentPane().add(jTextFieldnomeempresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 30, 410, 30));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel8.setText("Volume:");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 130, -1, 30));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 130, -1, 30));
         jLabel8.setVisible(false);
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 290, 240, 30));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 290, 240, 30));
         jTextField3.setVisible(false);
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 290, 100, 30));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 290, 100, 30));
         jTextField4.setVisible(false);
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel9.setText("Funcionalidades ");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 120, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 120, -1, -1));
 
         jCheckBox19.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox19.setText("Mongodb");
@@ -325,7 +326,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox19ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 440, -1, 30));
+        getContentPane().add(jCheckBox19, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 440, -1, 30));
 
         jCheckBox20.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox20.setText("Gerador de Data Lake ");
@@ -334,7 +335,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox20ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 160, -1, 30));
+        getContentPane().add(jCheckBox20, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 160, -1, 30));
 
         jCheckBox21.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox21.setText("Busca por LNP");
@@ -343,7 +344,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox21ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 200, -1, 30));
+        getContentPane().add(jCheckBox21, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 200, -1, 30));
 
         jCheckBox22.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBox22.setText("Ingestão Automatizada ");
@@ -352,44 +353,44 @@ public class FormEscopo extends javax.swing.JFrame {
                 jCheckBox22ActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 240, -1, 30));
+        getContentPane().add(jCheckBox22, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 240, -1, 30));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("Entregáveis Possíveis ");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 540, -1, -1));
-        getContentPane().add(jTextFieldentregaveispossi, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 570, 220, 50));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 540, -1, -1));
+        getContentPane().add(jTextFieldentregaveispossi, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 570, 220, 50));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("Objetivo do Negócio");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 360, -1, -1));
-        getContentPane().add(jTextFieldobjetivoneg, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 390, 220, 50));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 360, -1, -1));
+        getContentPane().add(jTextFieldobjetivoneg, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 390, 220, 50));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel10.setText("Entregável Mínimo ");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 450, -1, -1));
-        getContentPane().add(jTextFieldentregavelmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 480, 220, 50));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 450, -1, -1));
+        getContentPane().add(jTextFieldentregavelmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 480, 220, 50));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel11.setText("Estrutura de Dados mínimos:");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 130, -1, 30));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, -1, 30));
         jLabel11.setVisible(false);
-        getContentPane().add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 210, 100, 30));
+        getContentPane().add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 210, 100, 30));
         jTextField12.setVisible(false);
-        getContentPane().add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 250, 100, 30));
+        getContentPane().add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 250, 100, 30));
         jTextField13.setVisible(false);
-        getContentPane().add(jTextField14, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 240, 30));
+        getContentPane().add(jTextField14, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, 240, 30));
         jTextField14.setVisible(false);
-        getContentPane().add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 240, 30));
+        getContentPane().add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, 240, 30));
         jTextField15.setVisible(false);
-        getContentPane().add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 250, 240, 30));
+        getContentPane().add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 240, 30));
         jTextField16.setVisible(false);
-        getContentPane().add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, 240, 30));
+        getContentPane().add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 210, 240, 30));
         jTextField17.setVisible(false);
-        getContentPane().add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 170, 100, 30));
+        getContentPane().add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 170, 100, 30));
         jTextField18.setVisible(false);
-        getContentPane().add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 170, 100, 30));
+        getContentPane().add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 170, 100, 30));
         jTextField19.setVisible(false);
-        getContentPane().add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 210, 100, 30));
+        getContentPane().add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 210, 100, 30));
         jTextField20.setVisible(false);
 
         jTextField22.addActionListener(new java.awt.event.ActionListener() {
@@ -397,7 +398,7 @@ public class FormEscopo extends javax.swing.JFrame {
                 jTextField22ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, 240, 30));
+        getContentPane().add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 210, 240, 30));
         jTextField22.setVisible(false);
 
         pack();
