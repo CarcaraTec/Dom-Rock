@@ -69,12 +69,13 @@ public class FormBronze extends javax.swing.JFrame {
         jTxtfreqaudio = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1600, 900));
+        setMinimumSize(new java.awt.Dimension(1280, 720));
+        setPreferredSize(new java.awt.Dimension(1280, 720));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("Sistemas: ");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 330, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 220, -1, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jButton1.setText("SALVAR");
@@ -83,7 +84,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 770, 210, 48));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 610, 180, 40));
 
         jCheckBoxERP.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxERP.setText("ERP");
@@ -92,11 +93,11 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxERPActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxERP, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 380, -1, -1));
+        getContentPane().add(jCheckBoxERP, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 270, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel9.setText("Frequência:");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 230, -1, -1));
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 170, -1, -1));
         jLabel9.setVisible(false);
 
         jCheckBoxjson.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -106,7 +107,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxjsonActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxjson, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, -1, -1));
+        getContentPane().add(jCheckBoxjson, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, -1));
 
         jCheckBoxplanilhas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxplanilhas.setText("PLANILHAS");
@@ -115,7 +116,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxplanilhasActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, -1, -1));
+        getContentPane().add(jCheckBoxplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
 
         jCheckBoxtexto.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxtexto.setText("TEXTO");
@@ -124,7 +125,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxtextoActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxtexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 640, -1, -1));
+        getContentPane().add(jCheckBoxtexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 580, -1, -1));
 
         jCheckBoxtabelas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxtabelas.setText("TABELAS");
@@ -133,7 +134,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxtabelasActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxtabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 460, -1, -1));
+        getContentPane().add(jCheckBoxtabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 400, -1, -1));
 
         jCheckBoxcsv.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxcsv.setText("CSV");
@@ -142,7 +143,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxcsvActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxcsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
+        getContentPane().add(jCheckBoxcsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 280, -1, -1));
 
         jCheckBoxaudio.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxaudio.setText("AUDIO");
@@ -151,11 +152,11 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxaudioActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 580, -1, -1));
+        getContentPane().add(jCheckBoxaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 520, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel11.setText("Formato: ");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, -1, -1));
 
         jCheckBoxvendas.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxvendas.setText("VENDAS");
@@ -164,7 +165,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxvendasActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxvendas, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 430, -1, -1));
+        getContentPane().add(jCheckBoxvendas, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 320, -1, -1));
 
         jCheckBoxoutros.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxoutros.setText("OUTROS");
@@ -173,7 +174,7 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxoutrosActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxoutros, new org.netbeans.lib.awtextra.AbsoluteConstraints(1240, 480, -1, -1));
+        getContentPane().add(jCheckBoxoutros, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 370, -1, -1));
 
         jCheckBoxpdf.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jCheckBoxpdf.setText("PDF");
@@ -182,12 +183,12 @@ public class FormBronze extends javax.swing.JFrame {
                 jCheckBoxpdfActionPerformed(evt);
             }
         });
-        getContentPane().add(jCheckBoxpdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 520, -1, -1));
+        getContentPane().add(jCheckBoxpdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 460, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel12.setText("Origem do dado: ");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, -1));
-        getContentPane().add(jTxtvolumetexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 640, 170, 30));
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, -1, -1));
+        getContentPane().add(jTxtvolumetexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 580, 170, 30));
         jTxtvolumetexto.setVisible(false);
 
         jComboBox1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -197,41 +198,41 @@ public class FormBronze extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 370, 30));
+        getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 370, 30));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 480, 190, 30));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 370, 190, 30));
         jTextField1.setVisible(false);
-        getContentPane().add(jTxtvolumecsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 340, 170, 30));
+        getContentPane().add(jTxtvolumecsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 280, 170, 30));
         jTxtvolumecsv.setVisible(false);
-        getContentPane().add(jTxtvolumeplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 400, 170, 30));
+        getContentPane().add(jTxtvolumeplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 340, 170, 30));
         jTxtvolumeplanilhas.setVisible(false);
-        getContentPane().add(jTxtvolumetabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 460, 170, 30));
+        getContentPane().add(jTxtvolumetabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 400, 170, 30));
         jTxtvolumetabelas.setVisible(false);
-        getContentPane().add(jTxtvolumepdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 520, 170, 30));
+        getContentPane().add(jTxtvolumepdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 460, 170, 30));
         jTxtvolumepdf.setVisible(false);
-        getContentPane().add(jTxtvolumeaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 580, 170, 30));
+        getContentPane().add(jTxtvolumeaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 520, 170, 30));
         jTxtvolumeaudio.setVisible(false);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel10.setText("Volume:");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 170, -1, -1));
         jLabel10.setVisible(false);
-        getContentPane().add(jTxtvolumejson, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 280, 170, 30));
+        getContentPane().add(jTxtvolumejson, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 220, 170, 30));
         jTxtvolumejson.setVisible(false);
-        getContentPane().add(jTxtfreqjson, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 280, 310, 30));
+        getContentPane().add(jTxtfreqjson, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, 310, 30));
         jTxtfreqjson.setVisible(false);
-        getContentPane().add(jTxtfreqcsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 340, 310, 30));
+        getContentPane().add(jTxtfreqcsv, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 280, 310, 30));
         jTxtfreqcsv.setVisible(false);
-        getContentPane().add(jTxtfreqplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 400, 310, 30));
+        getContentPane().add(jTxtfreqplanilhas, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 340, 310, 30));
         jTxtfreqplanilhas.setVisible(false);
-        getContentPane().add(jTxtfreqtexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 640, 310, 30));
+        getContentPane().add(jTxtfreqtexto, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 580, 310, 30));
         jTxtfreqtexto.setVisible(false);
-        getContentPane().add(jTxtfreqtabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, 310, 30));
+        getContentPane().add(jTxtfreqtabelas, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 400, 310, 30));
         jTxtfreqtabelas.setVisible(false);
-        getContentPane().add(jTxtfreqpdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 520, 310, 30));
+        getContentPane().add(jTxtfreqpdf, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 460, 310, 30));
         jTxtfreqpdf.setVisible(false);
-        getContentPane().add(jTxtfreqaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 580, 310, 30));
+        getContentPane().add(jTxtfreqaudio, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 520, 310, 30));
         jTxtfreqaudio.setVisible(false);
 
         pack();
